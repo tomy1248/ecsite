@@ -43,7 +43,7 @@ public class AdminController {
 		}
 		
 		if(user.getIsAdmin() == 0) {
-			model.addAttribute("errMassage","管理者ではありません。");
+			model.addAttribute("errMessage","管理者ではありません。");
 			return "forward:/ecsite/admin/";
 		}
 		
